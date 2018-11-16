@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+$black: #000000;
+$gray: #ededed;
+$white: #ffffff;
+$excalibur: #ef5777;
+$basecore: #0195a1;
+$dark-gray: #1b1b1b;
+
+body{
+	font-family: 'Lato', sans-serif;
+	width: 100vw;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
