@@ -1,0 +1,51 @@
+@import 'base.scss';
+
+.technologies{
+	h2{
+		text-align: center;
+		font-size: 30px;
+		margin: 38px 5px;
+	}
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.technologies__item{
+	width: 575px;
+	box-sizing: border-box;
+	padding: 40px 40px 93px;
+
+	&.basecore{
+		outline: 1px solid $gray;
+		background:transparent url('../img/bc-platform.jpg') right bottom no-repeat;
+		color: $basecore;
+		.link{
+			background-color: $basecore;
+		}
+	}
+	&.excalibur{
+		background: $dark-gray url('../img/excalibur-logo-bg.svg') right 54px top no-repeat;
+		background-size: contain;
+		color: $white;
+		.link{
+			background-color: $excalibur;
+		}
+	}
+
+	.description{
+		font-size: 15px;
+		margin-bottom: 46px;
+	}
+	.link{
+		width: 190px;
+		height: 56px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: $white;
+		font-size: 14px;
+		text-decoration: none;
+	}
+}
+

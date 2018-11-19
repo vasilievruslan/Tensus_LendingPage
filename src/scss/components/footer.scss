@@ -1,0 +1,84 @@
+@import 'base.scss';
+
+.footer{
+	background: $darknest;
+	color: $white;
+
+	header{
+		padding: 50px 0px 73px;
+	}
+
+	footer{
+		padding: 38px 0px;
+		background: $dark-gray;
+		font-size: 12px;
+
+		a{
+			color: $white;
+		}
+	}
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.lists{
+		display: flex;
+	}
+	.footer__list{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+
+		&:not(:last-child){
+			margin-right: 37px;
+		}
+	}
+	.footer__list-item{
+		&:not(:last-child){
+			margin-bottom: 8px;
+		}
+		&.--title{
+			margin-bottom: 10px;
+		}
+		a{
+			color: $white;
+			text-decoration: none;
+		}
+
+		font-size: 16px;
+
+	}
+
+	.cpr{
+		display: flex;
+		div:first-child{
+			margin-right: 60px;
+		}
+		.link{
+				margin-right: 31px;
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+	.media__item{
+		display: inline-block;
+		width: 15px;
+		height: 13px;
+
+		&:not(:last-child){
+			margin-right: 30px;
+		}
+
+		&.tw{
+			background: transparent url('../img/tw.svg') left top no-repeat;
+		}
+		&.med{
+			background:transparent url('../img/medium.svg') left top no-repeat;
+		}
+	}
+}
