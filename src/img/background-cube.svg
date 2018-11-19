@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="843" height="722" viewBox="0 0 843 722">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1005" height="722" viewBox="0 0 1005 722">
     <defs>
-        <path id="a" d="M0 0h421v722H0z"/>
+        <path id="a" d="M0 0h583v722H0z"/>
         <circle id="c" cx="421" cy="361" r="162"/>
         <filter id="d" width="104.6%" height="104.6%" x="-2.3%" y="-2.3%" filterUnits="objectBoundingBox">
             <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="7"/>
