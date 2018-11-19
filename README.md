@@ -1,7 +1,11 @@
 # Tensus_LendingPage
 
-#install dependences 
+#### install dependences 
+```
 $npm install
+```
 
-#run gulp
+#### run gulp
+```
 $gulp
+```
